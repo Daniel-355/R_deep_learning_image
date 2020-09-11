@@ -1,1 +1,1 @@
-# R_deep_learning_image
+# Assignments for Deep Learning for Healthcare Image Analysis I
