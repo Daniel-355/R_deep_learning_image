@@ -1,5 +1,5 @@
 # Using transfer learning to classify pictures of pathology of colorectal cancer
-
+[TOC]
 ## Data sources  
 
 These pictures have been labeled by pathologists at the University Hospitals Coventry and Warwickshire ![link]((https://warwick.ac.uk/fac/sci/dcs/research/tia/glascontest/download/)), which included two classifications: benign (74) and malignant (91). All 165 pictures were split into two datasets: training dataset (85) and test dataset (80). 
