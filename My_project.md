@@ -1,5 +1,12 @@
-# Using transfer learning to classify pictures of pathology of colorectal cancer
+# Using Convolutional Neural Network to classify pictures of pathology of colorectal cancer
+# (Outline)
 [TOC]
+## Goal
+I would like to build a my own CNN (Convolutional Neural Network) and use this CNN to classify two kinds of colorectal cancer.  
+## Applications
+Firstly, it can help clinical practitioners to classify the two kinds of colorectal cancer more accurately. Secondly, I can learn more from the practice of image marchine learning. 
+## Expected outcomes
+The accuracy rate of the validation dataset and training data dataset are expected up to 85% based on the limited small sample size.  
 ## Data sources  
 
 These pictures have been labeled by pathologists at the University Hospitals Coventry and Warwickshire [link](https://warwick.ac.uk/fac/sci/dcs/research/tia/glascontest/download/), which included two classifications: benign (74) and malignant (91). All 165 pictures were split into two datasets: training dataset (85) and test dataset (80). 
@@ -21,7 +28,7 @@ Sample of picture
 * Transform all pictures to "tfrecord" file so that Colab can read these data. (xml-- csv --tfrecord , train_images, train_labels, test)
 * _I will learn how to load my own dataset into Colab_ [link](https://colab.research.google.com/github/tensorflow/docs-l10n/blob/master/site/zh-cn/tutorials/load_data/images.ipynb#scrollTo=n2TCr1TQ8pA3). 
 
-## Transfer learning with tensorflow hub according to this [website](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/images/transfer_learning_with_hub.ipynb#scrollTo=CKFUvuEho9Th). 
+## (Delete) Transfer learning with tensorflow hub according to this [website](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/images/transfer_learning_with_hub.ipynb#scrollTo=CKFUvuEho9Th). 
 * Download the classifier 
 * Load my dataset
 * Run the classifier on a batch of images
@@ -36,7 +43,7 @@ Sample of picture
 
 sampling
 
-## Compare the effect of convolutional neural network, and neural network.  (if possible)
+## (Delete) Compare the effect of convolutional neural network, and neural network.  (if possible)
 
 # Questions:
 * I am not sure whether I can finish the above analysis by using only Colab. If not, I may need set up a enivironment the transfer learning. 
