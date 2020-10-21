@@ -41,7 +41,7 @@ Sample of picture
 
 ## Build a convolutional neural network according to below [websites](https://www.tensorflow.org/tutorials/images/classification#visualize_training_results_2 )  and [link](https://colab.research.google.com/github/tensorflow/docs-l10n/blob/master/site/zh-cn/tutorials/images/cnn.ipynb#scrollTo=_v8sVOtG37bT).  (if possible)
 
-sampling
+Only use CNN to train because of limited time and incompatible equipments
 
 ## (Delete) Compare the effect of convolutional neural network, and neural network.  (if possible)
 
@@ -49,7 +49,8 @@ sampling
 * I am not sure whether I can finish the above analysis by using only Colab. If not, I may need set up a enivironment the transfer learning. 
 * My person computer is competent or not. 
 * How to prepare a well dataset for Colab. 
-* The training smample size my be not enough. 
- 
+* The training smample size my be not enough.    
+
+ (have been solved)
 	
 
